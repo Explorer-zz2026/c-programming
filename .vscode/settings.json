@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/build": true,
+    "**/*.o": true,
+    "**/*.out": true,
+    "**/*.dSYM": true
+  },
+  "code-runner.executorMap": {
+    "c": "cd $dir && mkdir -p build && gcc $fileName -o build/$fileNameWithoutExt && $dir/build/$fileNameWithoutExt",
+    "cpp": "cd $dir && mkdir -p build && clang++ $fileName -o build/$fileNameWithoutExt && $dir/build/$fileNameWithoutExt"
+  }
+}
