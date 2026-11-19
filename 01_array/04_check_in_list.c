@@ -1,3 +1,4 @@
+/*匹配:检查一个数在不在名单上*/
 /*现有一组数据，让用户输入一个数字，判断其是否在这组数据里面，有就输出位置，没有就输出不存在*/
 #include <stdio.h>
 int search(int x, int database[], int length);

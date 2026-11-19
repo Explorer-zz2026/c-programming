@@ -1,3 +1,4 @@
+/*【输出前n个素数】*/
 /*输出前100个素数*/
 #include <stdio.h>
 #define COUNT 100//寻找100个素数

@@ -1,3 +1,4 @@
+/*【二维数组如矩阵：判断tic-tac-toe的赢家】*/
 /*先有一盘已经填满的井字棋，写一个程序判断是执O还是执X的玩家获胜*/
 #include <stdio.h>
 #define ROW 3
